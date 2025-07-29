@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Calc</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/scripts.js" defer ></script>
+</head>
+<body>
+    <div id="calc">
+        <h3>Calculadora</h3> <!-- Define o título da página que aparece na aba do navegador -->
+        <div id="operations"> <!-- Div que exibe as operações anteriores e atuais -->
+            <div id="previous-operation"></div> <!-- Exibe a operação anterior -->
+            <div id="current-operation"></div> <!-- Exibe a operação atual -->
+        </div>
+        <div id="buttons-container"> <!-- Div que contém todos os botões da calculadora -->
+            <button>CE</button> <!-- Botão para limpar a entrada atual -->
+            <button>C</button>  <!-- Botão para limpar tudo -->
+            <button>DEL</button> <!-- Botão para apagar o último caractere -->
+            <button>/</button> <!-- Botão para operação de divisão -->
+            <button class="number">7</button>
+            <button class="number">8</button>
+            <button class="number">9</button>
+            <button>*</button>
+            <button class="number">4</button>
+            <button class="number">5</button>
+            <button class="number">6</button>
+            <button>-</button>
+            <button class="number">1</button>
+            <button class="number">2</button>
+            <button class="number">3</button>
+            <button>+</button>
+            <button class="number">0</button>
+            <button class="number">.</button>
+            <button id="equal-btn">=</button> <!-- Botão para igual, que calcula a operação -->
+        </div>
+    </div>
+</body>
+</html>
