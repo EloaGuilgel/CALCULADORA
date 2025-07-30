@@ -22,10 +22,11 @@ Ela permite realizar operações simples como **adição, subtração, multiplic
 
 ---
 
-## 📂 Como usar
-
-1. Clone este repositório:
-```bash
-git clone https://github.com/EloaGuilgel/CALCULADORA.git
 
 
+## 🔗 Link do projeto
+
+[Acesse aqui a calculadora online](https://eloaguilgel.github.io/CALCULADORA/)
+
+✨ Objetivo
+Este projeto foi desenvolvido com fins educacionais, para treinar habilidades em JavaScript e lógica de programação.
